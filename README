@@ -1,0 +1,30 @@
+
+Module TeX::DVI::Parse:
+
+	Class for parsing TeX's DVI output file.
+
+Module TeX::DVI::Print:
+
+	Example how to use Parse to print the content of DVI.
+
+Installation:
+
+	perl Makefile.PL
+	make
+	make test
+	make install
+
+Use:
+	use TeX::DVI::Parse;
+	my $dvi_parse = new TeX::DVI::Print("test.dvi");
+	$dvi_parse->parse();
+
+Available:
+
+	http://www.fi.muni.cz/~adelton/perl/ and on your favorite CPAN
+	site (http://www.perl.com/perl/CPAN/).
+
+Copyright: (c) 1997 Jan Pazdziora, adelton@fi.muni.cz. All rights
+	reserved. This module is free software; you can redistribute it
+	and/or modify it under the same terms as Perl itself. 
+
